@@ -1,0 +1,25 @@
+#container {
+display: grid;
+
+}
+
+#radio-btn {
+display: flex;
+flex-direction: column;
+}
+body {
+text-align: center;
+background-color: #1E90F7;
+}
+#title {
+font-family: helvetica;
+background-color: #0FF;
+text-align: center;
+}
+#description {
+
+}
+#chex {
+display: flex;
+flex-direction: column;
+}

@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+
+#container {
+display: grid;
+
+}
+
+#radio-btn {
+display: flex;
+flex-direction: column;
+}
+body {
+text-align: center;
+background-color: #1E90F7;
+}
+#title {
+font-family: helvetica;
+background-color: #0FF;
+text-align: center;
+}
+#description {
+
+}
+#chex {
+display: flex;
+flex-direction: column;
+}
+
+
+</style>
+</head>
+<body>
+<div id="container">
+<div>
+<header>
+<h1 id="title">Free Lesson to learn Html, Css and Javascript</h1>
+<p id="description"><Sign up here to access the most camp to learn code for FREE!</p>
+</header>
+</div>
+<form id="survey-form">
+<div>
+<label id="name-label" for="name">Name :</label>
+<input type="text" id="name" placeholder="Enter your name" name="name" required>
+</div>
+<div>
+<label id="email-label" for="email">Email :</label>
+<input type="email" name="email" id="email" placeholder="Enter your valid email" required>
+</div>
+<div>
+<label id="number-label" for="number">Age :</label>
+<input type="number" id="number" placeholder="Enter your age" name="age" min="18" max="60">
+</div>
+<div>
+<p>Which level you wanna reach?</p>
+<select id="dropdown" name="level" required>
+<option value="basic things">Basic things</option>
+<option value="perfect">Perfect</option>
+<option value="license">License</option>
+<option value="master">Master</option>
+</select>
+</div>
+<div id="radio-btn">
+<p>why wanna study programing?</p>
+<label><input type="radio" name="study" value="job" checked>Job</label>
+<label><input type="radio" name="study" value="earn money">Earn money</label>
+<label><input type="radio" name="study" value="code's fun">code's fun</label>
+<label><input type="radio" name="study" value="nothing">Nothing</label>
+</div>
+<div id="chex">
+<p>which lesson would you to start at? NOTE: you can start at all of them!</p>
+<label><input type="checkbox" name="lesson" value="html">Html</label>
+<label><input type="checkbox" name="lesson" value="css">Css</label>
+<label><input type="checkbox" name="lesson" value="Javascript">Javascript</label>
+</div>
+<p>to help us adding more language ,leave a comment here</p>
+<textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+</div>
+<div>
+<button id="submit" type="submit">Sign up</button>
+</div>
+</form>
+</div>
+</body>
+</html>
+
+
